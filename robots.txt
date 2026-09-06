@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /ERRORS.md
+Disallow: /README.md
+
+# Owned test fixture. 2 rps is plenty.
+Crawl-delay: 1
