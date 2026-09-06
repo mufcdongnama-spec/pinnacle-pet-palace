@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Contact</title><link rel="stylesheet" href="css/styles.css"></head>
+<body>
+<header class="site-header"><a href="index.html"><img src="images/logo.svg" alt="Pinnacle Pets"></a>
+<ul class="nav-main"><li><a href="index.html">Home</a></li><li><a href="contact.html">Contact</a></li><li><a href="faq.html">FAQ</a></li></ul></header>
+<h1>Contact the shop</h1>
+<p>Call us at <span>805-555-0199</span>. Fields outlined in red are required.</p>
+<form id="contact-form" action="#" method="post">
+<div class="form-row"><input id="name-field" type="text" placeholder="Full name"></div>
+<div class="form-row"><label>Email address</label><input id="email-unlabeled" type="text" name="email"></div>
+<div class="form-row"><label for="wrong-id">Phone</label><input id="phone-field" type="text" name="phone"></div>
+<div class="form-row"><input type="checkbox" name="adopt"> I am interested in adopting</div>
+<div class="form-row">Preferred contact <input type="radio" name="pref" value="phone"> Phone <input type="radio" name="pref" value="email"> Email</div>
+<div class="form-row"><label for="msg">Message</label><textarea id="msg" name="msg"></textarea></div>
+<div class="form-row"><img src="images/captcha.svg" width="180" height="60"><input type="text" placeholder="Type the characters"></div>
+<p id="color-error" style="display:none;color:#e74c3c;">There were problems with your submission.</p>
+<button type="submit">Submit</button><input type="reset" value="X">
+</form>
+<form><input type="text" name="user" autocomplete="off"><input type="password" name="pass" autocomplete="off"><button type="submit">Login</button></form>
+<iframe width="400" height="200" src="https://maps.google.com"></iframe>
+<script src="js/main.js"></script>
+</body></html>
